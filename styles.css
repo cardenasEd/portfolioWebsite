@@ -80,9 +80,11 @@ header nav a:hover {
 
 .technology-category {
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #5a7fa1;
+    /*original border: 1px solid #ddd;*/
     border-radius: 12px;
-    background: #fafafa;
+    background: #d8f4ff; 
+    /*original background: #fafafa; */
 }
 
 .technology-category h3 {
