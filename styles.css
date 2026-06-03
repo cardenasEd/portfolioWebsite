@@ -45,3 +45,60 @@ header nav a {
 header nav a:hover {
     opacity: 0.6;
 }
+
+#about h2 {
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#technologies {
+    margin-top: 60px;
+    text-align: left;
+}
+
+#technologies h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.technologies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    text-align: left;
+}
+
+.technology-category {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: #fafafa;
+}
+
+.technology-category h3 {
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.technology-category ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+.technology-category li::before {
+    content: "• ";
+    color: #333;
+}
+
