@@ -83,7 +83,7 @@ header nav a:hover {
     border: 1px solid #5a7fa1;
     /*original border: 1px solid #ddd;*/
     border-radius: 12px;
-    background: #d8f4ff; 
+    background: #d3d7d8; 
     /*original background: #fafafa; */
 }
 
@@ -104,3 +104,6 @@ header nav a:hover {
     color: #333;
 }
 
+#contact {
+    margin-top: 60px;
+}
