@@ -107,3 +107,24 @@ header nav a:hover {
 #contact {
     margin-top: 60px;
 }
+
+#contact ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#contact ul li {
+    margin: 0;
+    padding: 0;
+}
+
+#contact img {
+    filter: grayscale(60%);
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
