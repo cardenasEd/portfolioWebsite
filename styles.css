@@ -10,13 +10,10 @@ body {
 }
 
 #myName {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    font-size: 22px;
+    position: relative;
+    font-size: 65px;
     margin: 0;
-    text-align: left;
-    z-index: 1000;
+    text-align: center;
 }
 
 /*
