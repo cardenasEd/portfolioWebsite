@@ -19,6 +19,7 @@ body {
     z-index: 1000;
 }
 
+/*
 header nav {
     position: fixed;
     top: 20px;
@@ -33,6 +34,7 @@ header nav ul {
     display: flex;
     gap: 30px;
 }
+*/
 
 header nav a {
     text-decoration: none;
