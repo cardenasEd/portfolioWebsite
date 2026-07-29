@@ -31,7 +31,7 @@ header nav ul {
     display: flex;
     gap: 30px;
 }
-*/
+
 
 header nav a {
     text-decoration: none;
@@ -44,6 +44,7 @@ header nav a {
 header nav a:hover {
     opacity: 0.6;
 }
+*/
 
 #about h2 {
     margin-bottom: 10px;
