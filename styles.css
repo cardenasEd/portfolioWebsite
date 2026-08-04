@@ -24,6 +24,9 @@ body {
     background-color: black;
     z-index: 9999;
     animation: reveal 7s ease forwards;
+
+    /*prevent user interaction with the overlay while it is visible or invisible*/
+    pointer-events: none;
 }
 
 @keyframes reveal {
@@ -34,7 +37,6 @@ body {
   100%{
     opacity:0;
     transform: scale(1.50);
-    display:hidden;
   }
 }
 #myName {
