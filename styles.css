@@ -137,10 +137,6 @@ header nav a:hover {
     line-height: 1.8;
 }
 
-.technology-category li::before {
-    content: "• ";
-    color: #333;
-}
 
 #contact {
     margin-top: 60px;
@@ -165,4 +161,9 @@ header nav a:hover {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+/* remove the dot before list items in technology categories */
+.technology-category li {
+    list-style: none;
 }
