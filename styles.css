@@ -166,4 +166,19 @@ header nav a:hover {
 /* remove the dot before list items in technology categories */
 .technology-category li {
     list-style: none;
+  
+}
+
+/* visually alighn the icons and text in the technology categories */
+.technology-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/*increase the gap between each item in the technology categories lists*/
+.technology-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
