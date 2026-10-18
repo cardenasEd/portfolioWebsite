@@ -112,6 +112,7 @@ header nav a:hover {
 
 .technology-category {
     padding: 20px;
+    padding-top: 0px;
     border: 1px solid #000000;
     border-radius: 12px;
     background: #dde2e3; 
@@ -127,7 +128,8 @@ header nav a:hover {
 
 .technology-category h3 {
     margin-bottom: 12px;
-    font-size: 20px;
+    font-size: 22px;
+    text-align: center;
 }
 
 .technology-category ul {
@@ -176,7 +178,7 @@ header nav a:hover {
     gap: 10px;
 }
 
-/*increase the gap between each item in the technology categories lists*/
+/*increase the gap between each item in the technology categories lists */
 .technology-list {
     display: flex;
     flex-direction: column;
